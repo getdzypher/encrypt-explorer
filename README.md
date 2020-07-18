@@ -1,4 +1,4 @@
-Iquidus Explorer - 1.7.3
+Encrypt Block Explorer
 ================
 
 An open source block explorer written in node.js.
@@ -49,12 +49,20 @@ Create user with read/write access:
 
     cd explorer && npm install --production
 
-### Configure
+### Configure Explorer
 
     cp ./settings.json.template ./settings.json
 
 *Make required changes in settings.json*
+### Configure Daemon
 
+    rpcport=2121
+    rpcuser=someuserhere
+    rpcpassword=somepasswordhere
+    daemon=1
+    txindex=1
+    
+*Make required changes in encrypt.conf*
 ### Start Explorer
 
     npm start
