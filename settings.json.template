@@ -35,7 +35,7 @@
   "dbsettings": {
     "user": "iquidus",
     "password": "3xp!0reR",
-    "database": "encryptblock",
+    "database": "explorerdb",
     "address": "localhost",
     "port": 27017
   },
